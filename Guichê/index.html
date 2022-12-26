@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <script type="text/javascript" src="./Js/script.js"></script>
+    <script type="text/javascript" src="./Js/jquery-3.6.3.min.js"></script>
+    <script>
+
+        function popup() {
+            $('.senha').show()
+            $('.container').hide()
+        }
+
+        $(function () {
+            $('.senha').hide()
+        })
+
+    </script>
+    <title>Cactus Software</title>
+</head>
+
+<body>
+
+    <div class="popup">
+        <img src="./img/Agrupar 1.png" alt="">
+
+        <div class="container">
+            <div class="card">
+                <div class="content">
+                    <button type="button" onclick="popup()">comum</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="senha">
+            <h3 id="content">p1231</h3>
+        </div>
+
+        <div class="container">
+            <div class="card">
+                <div class="content">
+                    <button type="button" onclick="popup()">Preferencial</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
